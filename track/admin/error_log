@@ -1,0 +1,13 @@
+[01-Oct-2025 14:36:21 UTC] PHP Warning:  Undefined array key "delivery_mode" in /home/jaystaru/public_html/track/admin/packages.php on line 137
+[01-Oct-2025 14:36:21 UTC] PHP Warning:  Undefined array key "expected_delivery" in /home/jaystaru/public_html/track/admin/packages.php on line 138
+[01-Oct-2025 14:36:21 UTC] PHP Warning:  Undefined array key "delivery_mode" in /home/jaystaru/public_html/track/admin/packages.php on line 137
+[01-Oct-2025 14:36:21 UTC] PHP Warning:  Undefined array key "expected_delivery" in /home/jaystaru/public_html/track/admin/packages.php on line 138
+[01-Oct-2025 14:36:49 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'expected_delivery' in 'field list' in /home/jaystaru/public_html/track/admin/packages.php:67
+Stack trace:
+#0 /home/jaystaru/public_html/track/admin/packages.php(67): mysqli->query('UPDATE packages...')
+#1 {main}
+  thrown in /home/jaystaru/public_html/track/admin/packages.php on line 67
+[01-Oct-2025 14:36:57 UTC] PHP Warning:  Undefined array key "delivery_mode" in /home/jaystaru/public_html/track/admin/packages.php on line 137
+[01-Oct-2025 14:36:57 UTC] PHP Warning:  Undefined array key "expected_delivery" in /home/jaystaru/public_html/track/admin/packages.php on line 138
+[01-Oct-2025 14:36:57 UTC] PHP Warning:  Undefined array key "delivery_mode" in /home/jaystaru/public_html/track/admin/packages.php on line 137
+[01-Oct-2025 14:36:57 UTC] PHP Warning:  Undefined array key "expected_delivery" in /home/jaystaru/public_html/track/admin/packages.php on line 138
